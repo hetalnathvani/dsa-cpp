@@ -12,6 +12,5 @@ int main()
         ans = ans^arr[i];
     }
 
-    // returns answer
     return ans;
 }
