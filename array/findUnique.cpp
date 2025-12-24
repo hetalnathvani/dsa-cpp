@@ -9,7 +9,7 @@ int main()
     int size = 5;
 
     for (int i = 0; i < size; i++) {
-        ans = ans^arr[i];
+        ans = ans^arr[i]; // XOR : 0^1 = 1, 1^1 = 0
     }
 
     return ans;
